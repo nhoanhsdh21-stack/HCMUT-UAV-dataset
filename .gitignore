@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Local dataset files (do NOT commit large raw data into this repo)
+images/
+annotations/
+HCMUT-UAV/
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Conversion outputs / local experiments
+*.log
+*.tmp
+annotations_coco.json
