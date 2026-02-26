@@ -44,7 +44,7 @@ This repository is intended to help users:
 
 ### Data Acquisition Specification (HCMUT-UAV)
 
-| Factor | Setting | Why it matters for small-object detection |
+| Factor | Setting | Why it matters for small object detection |
 |---|---|---|
 | Platform | **DJI Air 2S** | Realistic consumer-UAV deployment |
 | Recording | **Video, 30 FPS** | Enables dense sampling and careful frame selection |
@@ -75,7 +75,7 @@ This repository is intended to help users:
   </tr>
 </table>
 
-> These images are included as **compressed previews only**. The full dataset should be downloaded from the official release link(s) below.
+> These images are included as **compressed previews only**. The full dataset should be downloaded from the official release link below.
 
 ---
 
@@ -83,12 +83,12 @@ This repository is intended to help users:
 
 Because the dataset size is large (~38 GB), the dataset itself is **not stored on GitHub**.
 
-This repository should contain only:
+This repository contains only:
 
 - documentation (`README`, usage notes, release notes),
 - metadata (`classes.txt`, split files, checksums),
 - helper scripts (validation, format conversion),
-- download links to Google Drive (or another file host).
+- download links to Google Drive.
 
 ---
 
@@ -155,13 +155,11 @@ Use the conversion script shown above.
 
 ## Suggested Split Protocol (Reference)
 
-A split protocol described in the thesis uses **disjoint flight segments** (to reduce near-duplicate leakage across train/validation/test):
+A split protocol in the thesis uses **disjoint flight segments** (to reduce near-duplicate leakage across train/validation/test):
 
 - **Train:** 3,368 images
 - **Validation:** 722 images
 - **Test:** 721 images
-
-If you release official split files, place them in `metadata/splits/` as plain text lists (one filename per line).
 
 ---
 
@@ -176,7 +174,7 @@ If you release official split files, place them in `metadata/splits/` as plain t
 If you use **HCMUT-UAV**, please cite:
 
 1. This dataset repository
-2. The corresponding thesis/dissertation (if applicable)
+2. The corresponding thesis/dissertation
 
 
 
