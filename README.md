@@ -16,14 +16,12 @@
 
 **HCMUT-UAV** is a high-resolution UAV traffic dataset collected in **Ho Chi Minh City, Vietnam** for **vehicle object detection** in urban aerial scenes, with a focus on **small object and crowded-scene detection**.
 
-This repository is intended to help users:
+This repository is to help users:
 
 - understand the dataset scope and labeling scheme,
 - download the dataset from Google Drive,
 - verify image/XML filename pairing,
 - optionally convert Pascal VOC XML annotations to COCO JSON for common detection frameworks.
-
-> **Current public release packaging in this repository workflow:** `images/` + `annotations/` (Pascal VOC XML, one XML per image).  
 
 ---
 
@@ -83,7 +81,7 @@ This repository is intended to help users:
 
 Because the dataset size is large (~38 GB), the dataset itself is **not stored on GitHub**.
 
-This repository contains only:
+This repository contains:
 
 - documentation (`README`, usage notes, release notes),
 - metadata (`classes.txt`, split files, checksums),
@@ -138,7 +136,7 @@ python scripts/voc_xml_to_coco.py \
 
 ---
 
-## Quick Start for Users
+## Quick Start:
 
 ### 1) Download and extract
 Download all archive parts from Google Drive and extract into one `HCMUT-UAV/` directory.
